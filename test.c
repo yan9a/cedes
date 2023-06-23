@@ -2,7 +2,7 @@
 #include <memory.h>
 #include "cedes.h"
 
-int main(int, char**) {
+int main() {
     int i;
     unsigned char buf[8];
     const char* message = "12345678";
