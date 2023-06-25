@@ -1,10 +1,11 @@
 // File: cedes.c
 // Description: Simple C functions to calculate DES (Data Encryption Standard) and 3DES (Triple DES)
+// Repository: https://github.com/yan9a/ceDES
 // WebSite: http://cool-emerald.blogspot.com
 // MIT License (https://opensource.org/licenses/MIT)
 // Copyright (c) 2023 Yan Naing Aye
 
-// Useful links
+// Related links
 // https://www.rapidtables.com/convert/number/ascii-to-hex.html
 // https://emvlab.org/descalc/
 // https://paymentcardtools.com/crypto-calculators/des-calculator
