@@ -13,8 +13,18 @@
 
 #ifndef CEDES_H
 #define CEDES_H
+
+#if defined(__cplusplus)
+extern "C" {
+#endif
+
 void ceDES_Encrypt(unsigned char *dMes,unsigned char *dKey);
 void ceDES_Decrypt(unsigned char *dMes,unsigned char *dKey);
 void ceTDES_Encrypt(unsigned char *dMes,unsigned char *dKeyL,unsigned char *dKeyR);
 void ceTDES_Decrypt(unsigned char *dMes,unsigned char *dKeyL,unsigned char *dKeyR);
+
+#if defined(__cplusplus)
+}
+#endif
+
 #endif // CEDES_H
